@@ -27,6 +27,6 @@ jobs:
         run: flutter pub get
 
       - name: Archive and export app
-        run: flutter build ipa --release
+        run: flutter build ipa
         
         
