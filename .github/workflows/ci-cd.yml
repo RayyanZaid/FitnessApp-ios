@@ -26,10 +26,7 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Build Flutter app
-        run: flutter build ios
-
       - name: Archive and export app
-        run: flutter build ios --export
+        run: flutter build ipa --release
         
         
